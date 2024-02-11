@@ -28,3 +28,8 @@ function totalMudou() {
 if (input) {
     input.addEventListener('keyup', totalMudou);
 }
+
+const frase = 'Front End'
+const preco =500
+const condi = preco>100
+console.log(typeof false)
