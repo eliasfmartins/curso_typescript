@@ -9,3 +9,6 @@ const biscoito = (param) => {
     console.log(param);
 };
 biscoito("teste");
+//  a diferenca e apenas o sinal de = a mais no type
+//  Em resumo type e usado pra definir tipos primitivos como numer string ou  dados simples como nomes e tals
+// a interface cabe aos tipos mais complexos

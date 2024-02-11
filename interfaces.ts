@@ -19,3 +19,18 @@ const biscoito = (param :Categorias)=>{
     console.log(param)
 }
 biscoito("teste")
+
+//  Interfaces basicamente a mesma coisa que type mas e  recomendado o seu uso em objs e classes mais avancadas a diferenca vai ser revelada mais a frente do curso
+
+interface InterfaceProduto {
+    nome: string
+    preco:number
+}
+type TypeProdutoo ={
+    nome: string
+    preco:number
+}
+//  a diferenca e apenas o sinal de = a mais no type
+
+//  Em resumo type e usado pra definir tipos primitivos como numer string ou  dados simples como nomes e tals
+// a interface cabe aos tipos mais complexos
