@@ -31,3 +31,7 @@ function mostarCursos(cursos: Curso[]) {
     })
 
 }
+//  tipos de dados null e undefined
+
+// null e quando nao existe nenhum falor naquele espaco
+// undefined e quando o valor ainda nao foi definido
