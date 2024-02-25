@@ -43,3 +43,5 @@ console.log(produto,game, nothing)
 if(produto instanceof Livro){
     produto.autor
 }
+// verifica se produto e instacia da class livro
+// caso seja ele retorna produto.autor  com essa verificacao evita o script de quebrar
