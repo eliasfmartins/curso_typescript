@@ -24,6 +24,10 @@ interface DataInterface {
     }
 
 fetchProduct();
+const sum = (n1:number,n2:number)=>{
+    return n1+n2
+}
+
 function showProduct(data:DataInterface) {
     document.body.innerHTML=`
     <div>
@@ -32,4 +36,5 @@ function showProduct(data:DataInterface) {
         </h2>
     </div>
     `
+    
 }
