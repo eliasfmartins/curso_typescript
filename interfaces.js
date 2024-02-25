@@ -1,4 +1,5 @@
-"use strict";
+"use strict";\
+// nao permite typagen any entre outras coisas
 // literamente mostra as opcoes que vc pode utilizar quando chama a funcao
 function preencherDados(dados) {
     document.body.innerHTML = `
