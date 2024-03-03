@@ -18,6 +18,7 @@ function caucularGanho(value) {
     if (p) {
         p.innerText = `ganho total: ${value + 100 - value * 0.2}`;
     }
+    
 }
 function totalMudou() {
     if (input) {
