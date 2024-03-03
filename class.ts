@@ -25,6 +25,7 @@ class Game{
     constructor(name:string){
         this.nameGame=name
     }
+    
 }
 
 function buscarProduto(busca:string){
