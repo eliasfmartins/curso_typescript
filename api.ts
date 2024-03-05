@@ -10,6 +10,7 @@ interface Empresa {
     funcacao:number
     pais:string
 }
+// interface motando com outra interface
 interface DataInterface {
     nome:string;
     preco:number;
