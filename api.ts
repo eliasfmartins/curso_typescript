@@ -4,6 +4,7 @@ async function fetchProduct() {
     console.log(data)
     showProduct(data)
 }
+// interface empresa
 interface Empresa {
     nome:string
     funcacao:number
