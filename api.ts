@@ -3,6 +3,7 @@ async function fetchProduct() {
     const data = await response.json()
     console.log(data)
     showProduct(data)
+    
 }
 // interface empresa
 interface Empresa {
