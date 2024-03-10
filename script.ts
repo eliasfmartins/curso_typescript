@@ -12,7 +12,6 @@ if (input && total){
     input.value = total
     caucularGanho(Number(input.value))
 }
-
 //  seta o valor do input pro salvo no localStorage
 function caucularGanho(value: number) {
     const p = document.querySelector('p');
